@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shenyonghe.fragmentrouter.main.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/ll_tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#eaeaea"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/iv_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="home"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/iv_live"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="live"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/iv_quote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="quote"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/iv_trade"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="trade"
+            android:textSize="10dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/iv_me"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="me"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
